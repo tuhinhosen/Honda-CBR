@@ -1,0 +1,135 @@
+/* ----------font family-------- */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;500&family=Poppins&display=swap');
+body{
+font-family: 'Geologica', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-container{
+    background-color: #264653;
+    height: 700px;
+    margin-bottom: 40px;
+}
+.container-height{
+    height: 100%;
+}
+.primary-button{
+    background-color:#e76f51 ;
+    padding: 8px 35px;
+    border-radius: 5px;
+}
+.primary-button:hover{
+    background-color: #e76f51;
+}
+.modal-text{
+    font-size: 16px;
+}
+.parag{
+    color: #8f9fa6;
+    font-size: 14px;
+}
+.futured-bikes{
+    height: 600px;
+    margin-bottom: 60px;
+}
+.filter-img{
+    filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+}
+.latest-news{
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.card-style{
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.secodary-button{
+    color: #e76f51;
+    border: 1px solid #e76f51;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+.secodary-button:hover{
+    color: #e76f51;
+        border: 1px solid #e76f51;
+        border-radius: 5px;
+        padding: 8px 20px;
+}
+.card-text{
+    font-size: medium;
+    color: #6c6c6c
+}
+.clients{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.clients-container{
+    margin-top: 60px;
+}
+.clients-says{
+    color: #e76f51;
+}
+.icon-star{
+    text-align: center;
+}
+.fa-star{
+    color: #e76f51;
+}
+.p-3{
+    padding: 2rem !important;
+}
+.clients-card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin-top: 20px;
+}
+.item-border{
+    border: 1px solid #cac3c3;
+    padding: 30px 18px;
+}
+.accordion-button:not(.collapsed){
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width:600px) {
+    .futured-bikes{
+        height: 100%;
+    }
+    .justify-content-end{
+        justify-content: flex-start !important;
+    }
+    
+
+}
+::-webkit-scrollbar {
+    opacity: 0;
+    background: transparent;
+    display: none;
+}
+
+::-webkit-scrollbar:hover {
+    opacity: 1;
+}
+
+.container:hover::-webkit-scrollbar-thumb {
+    background: red;
+}
+ 
+.footer-left a{
+    text-decoration: none;
+    color: #cac3c3;
+    font-size: 12px;
+    padding:15px 5px;
+    
+}
+.copyright-txt{
+    color: #cac3c3;
+        font-size: 10px;
+        margin-top: 10px;
+}
+.app-txt{
+    color: #cac3c3;
+font-size: 12px;
+   
+}
